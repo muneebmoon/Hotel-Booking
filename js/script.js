@@ -13,6 +13,11 @@ if (window.location.pathname.includes('index.html')) {
 else if (window.location.pathname.includes('rooms.html')) {
     hero.style.backgroundImage = "url('/assets/images/room-banner.png')";
 }
+else if (window.location.pathname.includes('contact.html')) {
+    hero.style.backgroundColor = "#14274A";
+    header.style.height = "30vh";
+
+}
 
 // Show the button when scrolling down 200px
 window.onscroll = function() {
